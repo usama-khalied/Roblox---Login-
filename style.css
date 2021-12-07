@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    height: 130vh;
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,url(images/782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg);
+background-position: center;
+background-size: cover;
+
+}
