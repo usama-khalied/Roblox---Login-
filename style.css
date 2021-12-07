@@ -12,5 +12,10 @@ width: 100%;
 background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,url(images/782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg);
 background-position: center;
 background-size: cover;
-
+}
+header nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: center;
 }
