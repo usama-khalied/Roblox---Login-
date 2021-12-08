@@ -6,6 +6,10 @@
 html {
     font-size: 62.5%;
 }
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
 header {
     height: 130vh;
 width: 100%;
@@ -18,4 +22,25 @@ header nav {
     justify-content: right;
     width: 100%;
     align-items: center;
+    padding: 3rem 3rem;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+padding: 1rem 3.5rem;
+background-color: white;
+font-size: 2.4rem;
+border-radius: 1.4rem;
+}
+header h1 {text-align: center;
+color: white;
+font-size: 8rem;
+font-weight: 1000;
+
+}
+.login-form {
+    width: 40%;
+    height: 95vh;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.9);
 }
