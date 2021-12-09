@@ -77,3 +77,11 @@ select option {
   .login-form .gender {
       display: flex;
   }
+  .login-form .female {
+      padding: 1rem 3rem;
+      border: 1px solid white;
+  }
+  .login-form .male {
+    padding: 1rem 3rem;
+    border: 1px solid white;
+}
