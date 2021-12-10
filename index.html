@@ -96,16 +96,43 @@
                 <input type="password" placeholder="At least 8 character" />
             </div>
             <div class="gender">
-                <div class="male">
+                <h5> Gender (optional)</h5>
+                <div class="flex-1">
+                <div onclick="change()" class="male">
                     <i class="fas fa-male"></i>
                 </div>
-                <div class="female">
-                    <i class="fas fa-female"></i>
+                <div onclick="changing()" class="female">
+                    <i id="female" class="fas fa-female"></i>
                 </div>
-
             </div>
+            </div>
+            <div class="paragraph">
+            <p>    By clicking Sign Up, you are agreeing to the Terms of Use including the arbitration clause and you are acknowledging the Privacy Policy </p>
+            </div>
+            <div class="sign-up">
+            <a href="#"> Sign Up</a>
+        </div>
         </div>
     </header>
+    <script>
+        let icon = document.querySelector('.fas');
+        function change() {
+            female.style.color = "white";
+            female.style.border = "none";
+            icon.style.color = "red";
+            icon.style.border = "red 1px solid";
+        }
+        let female = document.querySelector('#female')
+        function changing() {
+            female.style.color = "blue";
+            female.style.border = "blue 1px solid";
+            icon.style.color = "white";
+            icon.style.border = "none";
+        }
+    </script>
+
+
+
     <script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
 </body>
 
