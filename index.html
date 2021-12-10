@@ -98,22 +98,52 @@
             <div class="gender">
                 <h5> Gender (optional)</h5>
                 <div class="flex-1">
-                <div onclick="change()" class="male">
-                    <i class="fas fa-male"></i>
+                    <div onclick="change()" class="male">
+                        <i class="fas fa-male"></i>
+                    </div>
+                    <div onclick="changing()" class="female">
+                        <i id="female" class="fas fa-female"></i>
+                    </div>
                 </div>
-                <div onclick="changing()" class="female">
-                    <i id="female" class="fas fa-female"></i>
-                </div>
-            </div>
             </div>
             <div class="paragraph">
-            <p>    By clicking Sign Up, you are agreeing to the Terms of Use including the arbitration clause and you are acknowledging the Privacy Policy </p>
+                <p> By clicking Sign Up, you are agreeing to the Terms of Use including the arbitration clause and you
+                    are acknowledging the Privacy Policy </p>
             </div>
             <div class="sign-up">
-            <a href="#"> Sign Up</a>
+                <a href="#"> Sign Up</a>
+            </div>
         </div>
+        <h4> ROBLOX ON YOUR DEVICE</h4>
+        <div class="row-device">
+            <img src="images/1.svg" alt="1" />
+            <img src="images/2.svg" alt="2" />
+            <img src="images/3.png" alt="3" />
+            <img src="images/4.svg" alt="4" />
+            <img src="images/5.png" alt="5" />
         </div>
     </header>
+    <!-- --footer-section -->
+    <!-- --s-ection-6 start    -->
+    <section class="l-footer">
+        <nav>
+            <ul>
+                <li>About us </li>
+                <li> jobs </li>
+                <li> Blog</li>
+                <li> Presents </li>
+                <li> Gift Card</li>
+                <li> Help</li>
+                <li> Terms </li>
+                <li> Accessibility </li>
+                <li> Privacy</li>
+            </ul>
+            <p>
+                ©2021 Roblox Corporation. Roblox, the Roblox logo and Powering Imagination are among our registered and
+                unregistered trademarks in the U.S. and other countries.</p>
+        </nav>
+    </section>
+    <!-- // script start -->
     <script>
         let icon = document.querySelector('.fas');
         function change() {
@@ -130,9 +160,6 @@
             icon.style.border = "none";
         }
     </script>
-
-
-
     <script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
 </body>
 
