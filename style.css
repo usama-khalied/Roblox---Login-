@@ -29,7 +29,7 @@ header nav a{
     color: black;
 padding: 1rem 3.5rem;
 background-color: white;
-font-size: 2.4rem;
+font-size: 1.8rem;
 border-radius: 1.4rem;
 }
 header h1 {text-align: center;
@@ -68,6 +68,8 @@ select:nth-child(3){
 select:nth-child(4){
     border-radius: 0;
 }
+
+
 select option {
     margin: 40px;
     background: rgba(0, 0, 0, 0.3);
@@ -162,7 +164,7 @@ font-size: 2.5rem;
     display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 0 3rem;
+padding: 0 0 5rem;
 }
 .row-device img {
     width: 150px;
@@ -199,5 +201,72 @@ height: auto;
         font-size: 5rem;
         font-weight: 400;
         margin: 0 0 2rem;  
+        }
+}
+/* --last-footer */
+.l-footer {
+    height: auto;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l-footer nav ul {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.l-footer .bottom {
+    display: flex;
+    margin: 3rem 0;
+    justify-content: space-between;
+    width: 100%;
+}
+.l-footer .bottom #language option {
+    border: 1px solid white;
+}
+.l-footer  nav ul li {
+    list-style: none;
+    font-size: 1.8rem;
+    margin:0 3rem 0;
+    color: white;
+}
+.l-footer nav .bottom p{ 
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 1.3rem 0 0;
+    /* line-height: 1.4; */
+    color: white;
+    }
+@media (max-width:1024px){
+    .l-footer {
+  height: auto;
+}
+.l-footer .bottom {
+   flex-direction: column;
+   align-items: center;
+}
+.l-footer nav ul {
+flex-direction: column;
+align-items: center;
+height:auto;
+border-bottom:none;
+
+}
+.l-footer nav ul li {
+    margin: 2rem 0 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.l-footer nav p{ 
+padding: 0 3rem 0;
+color: white;
         }
 }
